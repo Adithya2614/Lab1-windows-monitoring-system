@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Config (contains encryption keys and encrypted credentials)
+config/.key
+config/credentials.enc
+
+# Logs
+server_log.txt
+server_errors.txt
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local

@@ -1,6 +1,6 @@
-# Windows Monitoring System
+# Lab1 — Windows Monitoring System
 
-A comprehensive Windows-based monitoring platform with Web Dashboard, REST API, PowerShell Engine, and WMI-based remote monitoring capabilities.
+A comprehensive Windows-based lab monitoring platform with a Web Dashboard, REST API, PowerShell Engine, and WMI-based remote monitoring capabilities.
 
 ## Architecture
 
@@ -18,7 +18,7 @@ Windows Controller
 
 ## Prerequisites
 
-1. **Node.js** (v18 or higher) - [Download here](https://nodejs.org/)
+1. **Node.js** (v18 or higher) — [Download here](https://nodejs.org/)
 2. **Windows PowerShell 5.1+** (included in Windows 10/11)
 3. **WinRM enabled** on target PCs
 
@@ -27,7 +27,6 @@ Windows Controller
 ### 1. Install Dependencies
 
 ```powershell
-cd c:\WMI
 npm install
 ```
 
@@ -44,30 +43,41 @@ Open your browser and navigate to: **http://localhost:3000**
 ## Project Structure
 
 ```
-c:\WMI\
-├── server/                     # Backend API server
-│   ├── index.js               # Express server entry
-│   ├── routes/                # API route handlers
-│   │   ├── nodes.js           # PC management
-│   │   ├── metrics.js         # System metrics
-│   │   ├── actions.js         # Remote actions
-│   │   ├── audit.js           # Audit logging
-│   │   └── credentials.js     # Credential management
-│   ├── services/              # Business logic
-│   │   ├── credential-manager.js
-│   │   └── powershell-engine.js
-│   └── powershell/            # PowerShell scripts
-│       ├── Get-SystemMetrics.ps1
-│       ├── Manage-Applications.ps1
-│       ├── Manage-Files.ps1
-│       ├── Control-Internet.ps1
-│       └── Control-Browsers.ps1
-├── dashboard/                  # Frontend web dashboard
-│   ├── index.html
-│   ├── css/styles.css
-│   └── js/app.js
-├── config/                     # Configuration (auto-created)
+WMI/
+├── server/                         # Backend API server
+│   ├── index.js                    # Express server entry point
+│   ├── routes/                     # API route handlers
+│   │   ├── nodes.js                # PC management
+│   │   ├── metrics.js              # System metrics
+│   │   ├── actions.js              # Remote actions
+│   │   ├── audit.js                # Audit logging
+│   │   ├── credentials.js          # Credential management
+│   │   ├── app-whitelist.js        # Application whitelist management
+│   │   └── url-whitelist.js        # URL whitelist management
+│   ├── services/                   # Business logic
+│   │   ├── credential-manager.js   # AES-256-GCM credential encryption
+│   │   └── powershell-engine.js    # PowerShell script executor
+│   ├── powershell/                 # PowerShell scripts
+│   │   ├── Get-SystemMetrics.ps1   # Collect system metrics
+│   │   ├── Manage-Applications.ps1 # Application management
+│   │   ├── Manage-Files.ps1        # File management
+│   │   ├── Control-Internet.ps1    # Internet enable/disable
+│   │   ├── Control-WebAccess.ps1   # Web access control
+│   │   ├── Enforce-AppWhitelist.ps1# Application whitelist enforcement
+│   │   ├── Set-Time.ps1            # Time synchronization
+│   │   └── Test-Scripts.ps1        # Script testing utility
+│   └── data/                       # Runtime data (auto-created)
+│       ├── nodes.json              # Registered PC list
+│       ├── allowed_apps.txt        # Whitelisted applications
+│       ├── allowed_urls.txt        # Whitelisted URLs
+│       └── exam-allowed-files/     # Exam-mode allowed files
+├── dashboard/                      # Frontend web dashboard
+│   ├── index.html                  # Main dashboard page
+│   ├── css/styles.css              # Stylesheet
+│   └── js/app.js                   # Frontend logic
+├── Setup-Remote-PC.ps1             # Remote PC WinRM setup script
 ├── package.json
+├── .gitignore
 └── README.md
 ```
 
@@ -86,7 +96,7 @@ c:\WMI\
 - List all installed applications
 - Search applications
 - Multi-select uninstall with verification
-- Exit code capture and registry re-check
+- Application whitelist enforcement for exam mode
 
 ### File Management
 - Browse files and folders
@@ -95,13 +105,19 @@ c:\WMI\
 - Search by name/extension
 - Multi-select delete with Test-Path verification
 
-### Internet Control
+### Internet & Web Control
 - Enable/Disable internet via Windows Firewall
 - Blocks WAN while keeping LAN + WinRM active
+- URL whitelist management for controlled web access
 
 ### Browser Control
 - Block/Unblock browsers (Chrome, Edge, Firefox, Brave, Opera)
 - Uses Windows Firewall application rules
+
+### Exam Mode
+- Application whitelisting — only approved apps can run
+- URL whitelisting — only approved websites accessible
+- Time synchronization across all PCs
 
 ## API Endpoints
 
@@ -125,11 +141,11 @@ c:\WMI\
 
 ## UI Features
 
-- **Dark Theme** - Modern dark UI with glassmorphism effects
-- **Grid/List Views** - Toggle between card and table layouts
-- **Status Indicator** - Top-right corner shows action status
-- **Verified Status** - Items remain visible until verification succeeds
-- **Responsive Design** - Works on all screen sizes
+- **Dark Theme** — Modern dark UI with glassmorphism effects
+- **Grid/List Views** — Toggle between card and table layouts
+- **Status Indicator** — Top-right corner shows action status
+- **Verified Status** — Items remain visible until verification succeeds
+- **Responsive Design** — Works on all screen sizes
 
 ## Post-Verification UI Rule
 
@@ -141,7 +157,7 @@ Items (files/applications) remain visible in the UI until verification succeeds:
 
 ## Setting Up WinRM on Target PCs
 
-Run these commands as Administrator on each target PC:
+Run these commands as Administrator on each target PC, or use the included `Setup-Remote-PC.ps1` script:
 
 ```powershell
 # Enable WinRM
@@ -160,12 +176,13 @@ Enable-NetFirewallRule -DisplayGroup "Windows Remote Management"
 - Encryption key is stored locally in `config/.key`
 - Credentials are cached in memory for session duration
 - WinRM uses authenticated connections
+- `.gitignore` excludes sensitive files (`config/.key`, `credentials.enc`)
 
 ## Testing PowerShell Scripts Locally
 
 ```powershell
 # Test system metrics collection
-cd c:\WMI\server\powershell
+cd server\powershell
 .\Get-SystemMetrics.ps1
 
 # Test application listing
@@ -173,6 +190,9 @@ cd c:\WMI\server\powershell
 
 # Test file listing
 .\Manage-Files.ps1 -Action List -Path "C:\"
+
+# Run the built-in test suite
+.\Test-Scripts.ps1
 ```
 
 ## License
