@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Windows Monitoring System - Monitor and manage Windows PCs remotely">
+    <title>Windows Monitoring System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Status Indicator -->
+    <div id="status-indicator" class="status-indicator">
+        <div class="status-dot"></div>
+        <span class="status-text">Ready</span>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" />
+                    <path d="M8 21h8M12 17v4" />
+                </svg>
+                <h1>WMI Monitor</h1>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <button class="nav-btn active" data-view="dashboard">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="7" />
+                    <rect x="14" y="3" width="7" height="7" />
+                    <rect x="14" y="14" width="7" height="7" />
+                    <rect x="3" y="14" width="7" height="7" />
+                </svg>
+                Dashboard
+            </button>
+            <button class="nav-btn" data-view="audit">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                </svg>
+                Audit Logs
+            </button>
+        </nav>
+        <div class="header-right">
+            <div class="view-toggle">
+                <button class="toggle-btn active" data-layout="grid" title="Grid View">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7" />
+                        <rect x="14" y="3" width="7" height="7" />
+                        <rect x="14" y="14" width="7" height="7" />
+                        <rect x="3" y="14" width="7" height="7" />
+                    </svg>
+                </button>
+                <button class="toggle-btn" data-layout="list" title="List View">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="8" y1="6" x2="21" y2="6" />
+                        <line x1="8" y1="12" x2="21" y2="12" />
+                        <line x1="8" y1="18" x2="21" y2="18" />
+                        <line x1="3" y1="6" x2="3.01" y2="6" />
+                        <line x1="3" y1="12" x2="3.01" y2="12" />
+                        <line x1="3" y1="18" x2="3.01" y2="18" />
+                    </svg>
+                </button>
+            </div>
+            <button class="btn btn-danger" id="remove-pc-btn" style="margin-right: 8px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+                Remove PC
+            </button>
+            <button class="btn btn-primary" id="add-pc-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+                Add PC
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Dashboard View -->
+        <section id="dashboard-view" class="view active">
+            <div class="content-header">
+                <h2>Monitored PCs</h2>
+                <div class="stats-bar">
+                    <div class="stat">
+                        <span class="stat-value" id="total-pcs">0</span>
+                        <span class="stat-label">Total</span>
+                    </div>
+                    <div class="stat online">
+                        <span class="stat-value" id="online-pcs">0</span>
+                        <span class="stat-label">Online</span>
+                    </div>
+                    <div class="stat offline">
+                        <span class="stat-value" id="offline-pcs">0</span>
+                        <span class="stat-label">Offline</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Global Controls Panel -->
+            <div class="global-controls-panel">
+                <h3>Global Controls</h3>
+                <p class="global-controls-desc">Apply controls to all registered PCs</p>
+                <div class="global-controls-grid">
+                    <div class="global-control">
+                        <span class="global-control-label">🌐 Internet</span>
+                        <div class="global-control-buttons">
+                            <button class="btn btn-success btn-sm" id="global-enable-internet"
+                                title="Enable internet on all PCs">Enable All</button>
+                            <button class="btn btn-danger btn-sm" id="global-disable-internet"
+                                title="Disable internet on all PCs">Disable All</button>
+                        </div>
+                    </div>
+                    <div class="global-control">
+                        <span class="global-control-label">🔒 Browsers</span>
+                        <div class="global-control-buttons">
+                            <button class="btn btn-success btn-sm" id="global-enable-browsers"
+                                title="Unblock browsers on all PCs">Enable All</button>
+                            <button class="btn btn-danger btn-sm" id="global-disable-browsers"
+                                title="Block browsers on all PCs">Disable All</button>
+                        </div>
+                    </div>
+                    <div class="global-control">
+                        <span class="global-control-label">⏰ System Time</span>
+                        <div class="global-control-buttons">
+                            <button class="btn btn-primary btn-sm" id="global-set-time"
+                                title="Automatically sync all PCs to Indian Standard Time (IST) via NTP">Sync Time (IST Auto)</button>
+                        </div>
+                    </div>
+                    <div class="global-control">
+                        <span class="global-control-label">🕸️ Web Restriction</span>
+                        <div class="global-control-buttons">
+                            <button class="btn btn-warning btn-sm" id="global-manage-urls"
+                                title="Manage whitelisted URLs">Manage URLs</button>
+                            <button class="btn btn-danger btn-sm" id="global-enable-restriction"
+                                title="Block all URLs except whitelist on all PCs">Enable Restriction</button>
+                            <button class="btn btn-success btn-sm" id="global-disable-restriction"
+                                title="Restore full web access on all PCs">Disable Restriction</button>
+                        </div>
+                    </div>
+                    <div class="global-control">
+                        <span class="global-control-label">📦 App Whitelist</span>
+                        <div class="global-control-buttons">
+                            <button class="btn btn-warning btn-sm" id="global-manage-apps"
+                                title="Manage whitelisted applications">Manage Apps</button>
+                            <button class="btn btn-secondary btn-sm" id="global-preview-apps"
+                                title="Preview which apps would be uninstalled on all PCs">Preview</button>
+                            <button class="btn btn-danger btn-sm" id="global-enforce-apps"
+                                title="Uninstall all non-whitelisted apps on all PCs">Enforce on All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pc-container" class="pc-grid">
+                <!-- PC cards will be dynamically inserted here -->
+                <div class="empty-state" id="empty-state">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="2" y="3" width="20" height="14" rx="2" />
+                        <path d="M8 21h8M12 17v4" />
+                    </svg>
+                    <h3>No PCs Registered</h3>
+                    <p>Click "Add PC" to start monitoring Windows computers</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Audit View -->
+        <section id="audit-view" class="view">
+            <div class="content-header">
+                <h2>Audit Logs</h2>
+                <div class="filter-bar">
+                    <select id="audit-filter" class="select-input">
+                        <option value="">All Actions</option>
+                        <option value="listApps">List Apps</option>
+                        <option value="uninstallApp">Uninstall App</option>
+                        <option value="deleteFiles">Delete Files</option>
+                        <option value="enableInternet">Enable Internet</option>
+                        <option value="disableInternet">Disable Internet</option>
+                    </select>
+                    <button class="btn btn-secondary" id="refresh-audit">Refresh</button>
+                </div>
+            </div>
+            <div id="audit-container" class="audit-table-container">
+                <table class="audit-table">
+                    <thead>
+                        <tr>
+                            <th>Timestamp</th>
+                            <th>Node</th>
+                            <th>Action</th>
+                            <th>Status</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody id="audit-tbody">
+                        <!-- Audit logs will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- PC Detail View -->
+        <section id="pc-detail-view" class="view">
+            <div class="detail-header">
+                <button class="btn btn-icon" id="back-to-dashboard">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                </button>
+                <h2 id="detail-pc-name">PC Name</h2>
+                <div class="detail-status">
+                    <span class="status-badge" id="detail-status">Offline</span>
+                </div>
+            </div>
+
+            <div class="detail-content">
+                <!-- Tabs -->
+                <div class="detail-tabs">
+                    <button class="tab-btn active" data-tab="overview">Overview</button>
+                    <button class="tab-btn" data-tab="files">Files</button>
+                    <button class="tab-btn" data-tab="apps">Applications</button>
+                    <button class="tab-btn" data-tab="controls">Controls</button>
+                </div>
+
+                <!-- Overview Tab -->
+                <div id="tab-overview" class="tab-content active">
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">CPU Usage</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="4" y="4" width="16" height="16" rx="2" />
+                                    <rect x="9" y="9" width="6" height="6" />
+                                    <line x1="9" y1="1" x2="9" y2="4" />
+                                    <line x1="15" y1="1" x2="15" y2="4" />
+                                    <line x1="9" y1="20" x2="9" y2="23" />
+                                    <line x1="15" y1="20" x2="15" y2="23" />
+                                </svg>
+                            </div>
+                            <div class="metric-value" id="detail-cpu">--%</div>
+                            <div class="metric-bar">
+                                <div class="metric-fill cpu" id="detail-cpu-bar"></div>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">RAM Usage</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="1" y="5" width="22" height="14" rx="2" />
+                                    <line x1="6" y1="9" x2="6" y2="15" />
+                                    <line x1="10" y1="9" x2="10" y2="15" />
+                                    <line x1="14" y1="9" x2="14" y2="15" />
+                                    <line x1="18" y1="9" x2="18" y2="15" />
+                                </svg>
+                            </div>
+                            <div class="metric-value" id="detail-ram">-- GB</div>
+                            <div class="metric-bar">
+                                <div class="metric-fill ram" id="detail-ram-bar"></div>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Disk Usage</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                                </svg>
+                            </div>
+                            <div class="metric-value" id="detail-disk">-- GB</div>
+                            <div class="metric-bar">
+                                <div class="metric-fill disk" id="detail-disk-bar"></div>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Uptime</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </div>
+                            <div class="metric-value" id="detail-uptime">--</div>
+                        </div>
+                    </div>
+
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <h4>System Information</h4>
+                            <div class="info-list">
+                                <div class="info-item">
+                                    <span class="info-label">OS</span>
+                                    <span class="info-value" id="detail-os">--</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Computer Name</span>
+                                    <span class="info-value" id="detail-computer-name">--</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Domain</span>
+                                    <span class="info-value" id="detail-domain">--</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <h4>Network</h4>
+                            <div class="info-list">
+                                <div class="info-item">
+                                    <span class="info-label">Type</span>
+                                    <span class="info-value" id="detail-network-type">--</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">SSID / LAN</span>
+                                    <span class="info-value" id="detail-network-name">--</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Internet</span>
+                                    <span class="info-value" id="detail-internet">--</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <h4>USB Devices</h4>
+                            <div class="info-list" id="detail-usb-list">
+                                <!-- USB devices listed here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Files Tab -->
+                <div id="tab-files" class="tab-content">
+                    <div class="file-manager">
+                        <div class="file-toolbar">
+                            <div class="path-bar">
+                                <button class="btn btn-secondary" id="file-go-up" title="Go to parent folder">⬆
+                                    Up</button>
+                                <input type="text" id="file-path" class="text-input" value="C:\\"
+                                    placeholder="Enter path...">
+                                <button class="btn btn-secondary" id="file-go">Go</button>
+                            </div>
+                            <div class="file-actions">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="show-hidden"> Show Hidden
+                                </label>
+                                <input type="text" id="file-search" class="text-input" placeholder="Search files...">
+                                <button class="btn btn-danger" id="delete-selected" disabled>Delete Selected</button>
+                            </div>
+                        </div>
+                        <div class="file-list-container">
+                            <table class="file-table">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox" id="select-all-files"></th>
+                                        <th>Name</th>
+                                        <th>Type</th>
+                                        <th>Size</th>
+                                        <th>Modified</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="file-tbody">
+                                    <!-- Files listed here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Applications Tab -->
+                <div id="tab-apps" class="tab-content">
+                    <div class="app-manager">
+                        <div class="app-toolbar">
+                            <input type="text" id="app-search" class="text-input" placeholder="Search applications...">
+                            <button class="btn btn-secondary" id="refresh-apps">Refresh</button>
+                            <button class="btn btn-danger" id="uninstall-selected" disabled>Uninstall Selected</button>
+                        </div>
+                        <div class="app-list-container">
+                            <table class="app-table">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox" id="select-all-apps"></th>
+                                        <th>Name</th>
+                                        <th>Version</th>
+                                        <th>Publisher</th>
+                                        <th>Size</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="app-tbody">
+                                    <!-- Applications listed here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls Tab -->
+                <div id="tab-controls" class="tab-content">
+                    <div class="controls-grid">
+                        <div class="control-card">
+                            <div class="control-header">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <line x1="2" y1="12" x2="22" y2="12" />
+                                    <path
+                                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                                </svg>
+                                <h4>Internet Control</h4>
+                            </div>
+                            <p class="control-desc">Enable or disable internet access. LAN and WinRM will remain active.
+                            </p>
+                            <div class="control-status">
+                                <span class="status-label">Status:</span>
+                                <span class="status-value" id="internet-status">Unknown</span>
+                            </div>
+                            <div class="control-actions">
+                                <button class="btn btn-success" id="enable-internet">Enable</button>
+                                <button class="btn btn-danger" id="disable-internet">Disable</button>
+                            </div>
+                        </div>
+
+                        <div class="control-card">
+                            <div class="control-header">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                                    <line x1="9" y1="9" x2="9.01" y2="9" />
+                                    <line x1="15" y1="9" x2="15.01" y2="9" />
+                                </svg>
+                                <h4>Browser Control</h4>
+                            </div>
+                            <p class="control-desc">Block or unblock browser access (Chrome, Edge, Firefox).</p>
+                            <div class="control-status">
+                                <span class="status-label">Status:</span>
+                                <span class="status-value" id="browser-status">Unknown</span>
+                            </div>
+                            <div class="control-actions">
+                                <button class="btn btn-success" id="enable-browsers">Enable</button>
+                                <button class="btn btn-danger" id="disable-browsers">Disable</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Add PC Modal -->
+    <div id="add-pc-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Add New PC</h3>
+                <button class="btn btn-icon close-modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+            <form id="add-pc-form">
+                <div class="form-group">
+                    <label for="pc-name">PC Name</label>
+                    <input type="text" id="pc-name" class="text-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="pc-alias">Alias (optional)</label>
+                    <input type="text" id="pc-alias" class="text-input">
+                </div>
+                <div class="form-group">
+                    <label for="pc-hostname">Hostname</label>
+                    <input type="text" id="pc-hostname" class="text-input" placeholder="e.g., PC-001 or 192.168.1.100">
+                </div>
+                <div class="form-group">
+                    <label for="pc-ip">IP Address (optional)</label>
+                    <input type="text" id="pc-ip" class="text-input" placeholder="e.g., 192.168.1.100">
+                </div>
+                <hr>
+                <h4>Credentials</h4>
+                <div class="form-group">
+                    <label for="cred-username">Username</label>
+                    <input type="text" id="cred-username" class="text-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="cred-password">Password</label>
+                    <input type="password" id="cred-password" class="text-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="cred-domain">Domain (optional)</label>
+                    <input type="text" id="cred-domain" class="text-input">
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary close-modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Add PC</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Remove PC Modal -->
+    <div id="remove-pc-modal" class="modal">
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3>Remove PC</h3>
+                <button class="btn btn-icon close-modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+            <form id="remove-pc-form">
+                <div class="form-group">
+                    <label for="remove-pc-select">Select PC to Remove</label>
+                    <select id="remove-pc-select" class="select-input text-input" required style="width: 100%;">
+                        <!-- Options generated dynamically -->
+                    </select>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary close-modal">Cancel</button>
+                    <button type="submit" class="btn btn-danger">Remove PC</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div id="confirm-modal" class="modal">
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3 id="confirm-title">Confirm Action</h3>
+            </div>
+            <p id="confirm-message">Are you sure you want to proceed?</p>
+            <div class="form-actions">
+                <button type="button" class="btn btn-secondary" id="confirm-cancel">Cancel</button>
+                <button type="button" class="btn btn-danger" id="confirm-ok">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- App Whitelist Modal -->
+    <div id="app-whitelist-modal" class="modal">
+        <div class="modal-content" style="max-width:680px;">
+            <div class="modal-header">
+                <h3>📦 Application Whitelist</h3>
+                <button class="btn btn-icon close-modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Tabs -->
+            <div class="detail-tabs" style="margin-bottom:16px;">
+                <button class="tab-btn active" id="aw-tab-edit-btn" onclick="awSwitchTab('edit')">Edit Whitelist</button>
+                <button class="tab-btn" id="aw-tab-preview-btn" onclick="awSwitchTab('preview')">Preview Changes</button>
+            </div>
+
+            <!-- Edit Tab -->
+            <div id="aw-tab-edit">
+                <div style="display:flex;gap:8px;margin-bottom:10px;">
+                    <input type="text" id="aw-search" class="text-input" placeholder="Search apps in whitelist..." style="flex:1;">
+                    <button class="btn btn-secondary btn-sm" id="aw-scan-btn" title="Scan installed apps on THIS server PC and add them all to the whitelist">
+                        🔍 Scan This PC
+                    </button>
+                </div>
+                <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+                    <label style="display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--text-muted);cursor:pointer;">
+                        <input type="checkbox" id="aw-select-all"> Select All
+                    </label>
+                    <button class="btn btn-danger btn-sm" id="aw-remove-selected" disabled>Remove Selected</button>
+                    <span style="margin-left:auto;font-size:0.8rem;color:var(--text-muted);" id="aw-app-count">0 apps</span>
+                </div>
+                <div id="aw-app-list" style="max-height:300px;overflow-y:auto;border:1px solid var(--border-primary);border-radius:var(--radius-md);background:var(--bg-tertiary);">
+                    <!-- app rows injected here -->
+                </div>
+                <div style="display:flex;gap:8px;margin-top:12px;">
+                    <input type="text" id="aw-add-input" class="text-input" placeholder="Add app name manually..." style="flex:1;">
+                    <button class="btn btn-success btn-sm" id="aw-add-btn">+ Add</button>
+                </div>
+                <small style="color:var(--text-muted);display:block;margin-top:6px;">
+                    Apps NOT in this list will be <strong>uninstalled</strong> when you click "Enforce on All". Matching is partial (e.g. "Chrome" matches "Google Chrome").
+                </small>
+            </div>
+
+            <!-- Preview Tab -->
+            <div id="aw-tab-preview" style="display:none;">
+                <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:10px;">
+                    Shows which apps on <strong>this server PC</strong> would be uninstalled. Remote PCs will be scanned when you click "Enforce on All".
+                </p>
+                <div id="aw-preview-loading" style="text-align:center;padding:20px;display:none;">
+                    <span style="color:var(--text-muted)">⏳ Scanning installed apps…</span>
+                </div>
+                <div id="aw-preview-results" style="max-height:340px;overflow-y:auto;"></div>
+            </div>
+
+            <div class="form-actions" style="margin-top:16px;">
+                <button type="button" class="btn btn-secondary close-modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="aw-save-btn">💾 Save Whitelist</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- URL Whitelist Modal -->
+    <div id="url-whitelist-modal" class="modal">
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3>🕸️ Web Access Whitelist</h3>
+                <button class="btn btn-icon close-modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+            <form id="url-whitelist-form">
+                <div class="form-group">
+                    <label for="allowed-urls">
+                        Allowed URLs / Domains
+                        <span style="color:var(--text-muted);font-weight:400"> — one per line</span>
+                    </label>
+                    <textarea id="allowed-urls" class="text-input" rows="10"
+                        placeholder="google.com&#10;microsoft.com&#10;wikipedia.org"
+                        style="width:100%;resize:vertical;font-family:inherit;font-size:0.875rem;"></textarea>
+                    <small style="color:var(--text-muted)">Entering a domain (e.g., google.com) allows all subdomains and paths. Enabling restriction will block everything else in Chrome and Edge.</small>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary close-modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Whitelist</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Operation Results Modal -->
+    <div id="results-modal" class="modal">
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3 id="results-modal-title">Operation Results</h3>
+                <button class="btn btn-icon close-modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+            <div id="results-modal-body" style="margin-bottom:16px;max-height:400px;overflow-y:auto;"></div>
+            <div class="form-actions">
+                <button type="button" class="btn btn-primary close-modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

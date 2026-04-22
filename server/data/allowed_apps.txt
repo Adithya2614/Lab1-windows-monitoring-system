@@ -1,0 +1,45 @@
+7-Zip
+Adobe Acrobat DC
+Adobe Acrobat Reader DC
+Android Studio
+AnyDesk
+Eclipse IDE
+FileZilla
+Git
+Google Chrome
+IntelliJ IDEA
+Microsoft .NET Framework
+Microsoft .NET Host
+Microsoft .NET Runtime
+Microsoft 365
+Microsoft ASP.NET Core Runtime
+Microsoft Edge
+Microsoft Office
+Microsoft OneDrive
+Microsoft Teams
+Microsoft Visual C++ 2010  x64 Redistributable
+Microsoft Visual C++ 2010  x86 Redistributable
+Microsoft Visual C++ 2012 Redistributable (x64)
+Microsoft Visual C++ 2012 Redistributable (x86)
+Microsoft Visual C++ 2013 Redistributable (x64)
+Microsoft Visual C++ 2013 Redistributable (x86)
+Microsoft Visual C++ 2015-2022 Redistributable (x64)
+Microsoft Visual C++ 2015-2022 Redistributable (x86)
+Microsoft Windows Desktop Runtime
+Mozilla Firefox
+NetBeans IDE
+Node.js
+Notepad++
+PuTTY
+Python
+Python Launcher
+TeamViewer
+Visual Studio
+Visual Studio Code
+VLC media player
+Windows SDK
+Windows Software Development Kit
+WinRAR
+WinSCP
+Wireshark
+Zoom

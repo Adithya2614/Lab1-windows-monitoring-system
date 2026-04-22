@@ -1,0 +1,2572 @@
+[
+  {
+    "id": "b963edbf-2163-4041-aa76-0779f32b5042",
+    "name": "CSE-ICB-059",
+    "alias": "",
+    "hostname": "DESKTOP-6SUCP0A",
+    "ipAddress": "172.111.1.56",
+    "os": "",
+    "status": "offline",
+    "lastSeen": "2026-03-16T12:01:20.947Z",
+    "metrics": {},
+    "createdAt": "2026-03-16T04:27:43.471Z"
+  },
+  {
+    "id": "64b6ee66-d568-45d6-b4c4-1deed866e306",
+    "name": "CSE-ICB-54",
+    "alias": "",
+    "hostname": "DESKTOP-H7H41U1",
+    "ipAddress": "",
+    "os": "",
+    "status": "offline",
+    "lastSeen": "2026-03-16T12:01:26.014Z",
+    "metrics": {},
+    "createdAt": "2026-03-16T04:47:15.092Z"
+  },
+  {
+    "id": "2f5e7987-e58b-4981-96e3-8d393e5acfce",
+    "name": "CSE-ICB-050",
+    "alias": "",
+    "hostname": "DESKTOP-HAFH8C2",
+    "ipAddress": "172.111.0.145",
+    "os": {
+      "buildNumber": "18363",
+      "architecture": "64-bit",
+      "name": "Microsoft Windows 10 Pro",
+      "version": "10.0.18363"
+    },
+    "status": "online",
+    "lastSeen": "2026-03-16T12:01:22.966Z",
+    "metrics": {
+      "os": {
+        "buildNumber": "18363",
+        "architecture": "64-bit",
+        "name": "Microsoft Windows 10 Pro",
+        "version": "10.0.18363"
+      },
+      "cpu": {
+        "usagePercent": 0,
+        "logicalProcessors": 28,
+        "name": "Intel(R) Core(TM) i7-14700",
+        "cores": 20,
+        "maxClockSpeed": 2112
+      },
+      "success": true,
+      "network": {
+        "adapters": [
+          {
+            "subnet": "255.255.252.0",
+            "name": "Intel(R) Ethernet Connection (17) I219-LM",
+            "type": "Ethernet",
+            "gateway": "172.111.0.1",
+            "mac": "E8:CF:83:88:F4:AD",
+            "ip": "172.111.0.145"
+          }
+        ],
+        "ssid": "",
+        "type": "Ethernet"
+      },
+      "applications": {
+        "list": [
+          {
+            "version": "25.10.186.0",
+            "name": "Cloudflare WARP",
+            "publisher": "Cloudflare, Inc.",
+            "installDate": "20260223",
+            "uninstallString": "MsiExec.exe /X{52FF2904-786A-4EB8-9246-D373FEF91BAC}",
+            "sizeMB": 338.43
+          },
+          {
+            "version": "145.0.7632.160",
+            "name": "Google Chrome",
+            "publisher": "Google LLC",
+            "installDate": "20260307",
+            "uninstallString": "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.160\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
+            "sizeMB": 0
+          },
+          {
+            "version": "146.0.3856.59",
+            "name": "Microsoft Edge",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20260316",
+            "uninstallString": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\146.0.3856.59\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging",
+            "sizeMB": 0
+          },
+          {
+            "version": "145.0.3800.97",
+            "name": "Microsoft Edge WebView2 Runtime",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20260311",
+            "uninstallString": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\145.0.3800.97\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging",
+            "sizeMB": 0
+          },
+          {
+            "version": "3.26.0.0",
+            "name": "Microsoft Update Health Tools",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20251105",
+            "uninstallString": "MsiExec.exe /X{B5664346-4402-4834-81BE-9687BF653BA2}",
+            "sizeMB": 1.07
+          },
+          {
+            "version": "14.23.27820.0",
+            "name": "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": null,
+            "uninstallString": "\"C:\\ProgramData\\Package Cache\\{852adda4-4c78-4a38-b583-c0b360a329d6}\\VC_redist.x64.exe\"  /uninstall",
+            "sizeMB": 23.16
+          },
+          {
+            "version": "14.23.27820",
+            "name": "Microsoft Visual C++ 2019 X64 Additional Runtime - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{9CA7111B-263D-45DE-B898-61FAD30B3237}",
+            "sizeMB": 11.88
+          },
+          {
+            "version": "14.23.27820",
+            "name": "Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{A94EC1B2-932B-49D7-8AF2-4FBD29FF314B}",
+            "sizeMB": 2.2
+          },
+          {
+            "version": "25.4.0.5418",
+            "name": "MobaXterm",
+            "publisher": "Mobatek",
+            "installDate": "20251202",
+            "uninstallString": "MsiExec.exe /X{4AA491A5-27B7-40EE-834C-49562302A32B}",
+            "sizeMB": 46.36
+          },
+          {
+            "version": "7.2.2",
+            "name": "Oracle VirtualBox 7.2.2",
+            "publisher": "Oracle and/or its affiliates",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{AE2B8BC7-E1B7-40C5-82DA-DDA3E8B5F06A}",
+            "sizeMB": 232.12
+          }
+        ],
+        "count": 10
+      },
+      "usb": {
+        "devices": [
+          {
+            "status": "OK",
+            "name": "USB Root Hub (USB 3.0)",
+            "deviceId": "USB\\ROOT_HUB30\\4&2114A89F&0&0"
+          },
+          {
+            "status": "Error",
+            "name": "Generic Bluetooth Adapter",
+            "deviceId": "USB\\VID_8087&PID_0033\\5&D0DE91E&0&14"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_301A\\5&D0DE91E&0&9"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant mouse",
+            "deviceId": "HID\\VID_413C&PID_301A\\6&2D15896A&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "USB Composite Device",
+            "deviceId": "USB\\VID_413C&PID_2113\\5&D0DE91E&0&7"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_2113&MI_00\\6&33823DDE&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "HID Keyboard Device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_00\\7&34E399C4&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_2113&MI_01\\6&33823DDE&0&0001"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant system controller",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL01\\7&300F946C&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant consumer control device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL02\\7&300F946C&0&0001"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant vendor-defined device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL03\\7&300F946C&0&0002"
+          }
+        ],
+        "count": 11
+      },
+      "storeApps": {
+        "list": [
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "windows.immersivecontrolpanel_10.0.2.1000_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\ImmersiveControlPanel",
+            "name": "windows.immersivecontrolpanel",
+            "version": "10.0.2.1000"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\PrintDialog",
+            "name": "Windows.PrintDialog",
+            "version": "6.2.1.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.YourPhone_0.0.13313.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_0.0.13313.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.YourPhone",
+            "version": "0.0.13313.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Wallet",
+            "version": "2.4.18324.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Office.OneNote_16001.11126.20076.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Office.OneNote_16001.11126.20076.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Office.OneNote",
+            "version": "16001.11126.20076.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MSPaint_5.1902.13017.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MSPaint_5.1902.13017.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MSPaint",
+            "version": "5.1902.13017.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftSolitaireCollection_4.2.11280.0_x86__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftSolitaireCollection_4.2.11280.0_x86__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftSolitaireCollection",
+            "version": "4.2.11280.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftOfficeHub_18.1901.1141.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_18.1901.1141.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftOfficeHub",
+            "version": "18.1901.1141.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.OneConnect_5.2508.25002.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.OneConnect_5.2508.25002.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.OneConnect",
+            "version": "5.2508.25002.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsSoundRecorder_10.2103.28.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsSoundRecorder_10.2103.28.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsSoundRecorder",
+            "version": "10.2103.28.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsCamera_2021.105.10.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2021.105.10.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsCamera",
+            "version": "2021.105.10.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftStickyNotes",
+            "version": "6.1.4.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ZuneMusic_10.22031.10091.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_10.22031.10091.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ZuneMusic",
+            "version": "10.22031.10091.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxSpeechToTextOverlay_1.21.13002.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxSpeechToTextOverlay_1.21.13002.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxSpeechToTextOverlay",
+            "version": "1.21.13002.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MixedReality.Portal",
+            "version": "2000.21051.1282.0"
+          },
+          {
+            "publisher": "CN=Skype Software Sarl, O=Microsoft Corporation, L=Luxembourg, S=Luxembourg, C=LU",
+            "packageFullName": "Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c",
+            "name": "Microsoft.SkypeApp",
+            "version": "15.150.3125.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Photos_2023.10070.17002.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2023.10070.17002.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Windows.Photos",
+            "version": "2023.10070.17002.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Xbox.TCUI",
+            "version": "1.24.10001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ZuneVideo",
+            "version": "10.22091.10061.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxApp",
+            "version": "48.104.4001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.People",
+            "version": "10.2202.100.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxGameOverlay",
+            "version": "1.54.4001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Print3D_3.3.791.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Print3D_3.3.791.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Print3D",
+            "version": "3.3.791.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe",
+            "name": "microsoft.windowscommunicationsapps",
+            "version": "16005.14326.22342.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Messaging_4.1901.10241.1000_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Messaging_4.1901.10241.1000_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Messaging",
+            "version": "4.1901.10241.1000"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Getstarted_10.4.41811.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Getstarted_10.4.41811.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Getstarted",
+            "version": "10.4.41811.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsMaps_11.2506.3.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsMaps_11.2506.3.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsMaps",
+            "version": "11.2506.3.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsCalculator",
+            "version": "10.2103.8.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.BingWeather_4.54.63029.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.BingWeather_4.54.63029.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.BingWeather",
+            "version": "4.54.63029.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxIdentityProvider",
+            "version": "12.130.16001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ScreenSketch_10.2008.3001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_10.2008.3001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ScreenSketch",
+            "version": "10.2008.3001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGamingOverlay_5.621.4222.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_5.621.4222.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxGamingOverlay",
+            "version": "5.621.4222.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WebpImageExtension_1.2.14.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WebpImageExtension_1.2.14.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WebpImageExtension",
+            "version": "1.2.14.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WebMediaExtensions_1.2.17.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WebMediaExtensions_1.2.17.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WebMediaExtensions",
+            "version": "1.2.17.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.VP9VideoExtensions_1.2.12.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.VP9VideoExtensions_1.2.12.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.VP9VideoExtensions",
+            "version": "1.2.12.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.GetHelp_10.2409.33293.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.33293.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.GetHelp",
+            "version": "10.2409.33293.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.StorePurchaseApp_22512.1401.1.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22512.1401.1.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.StorePurchaseApp",
+            "version": "22512.1401.1.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.DesktopAppInstaller_1.27.460.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.27.460.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.DesktopAppInstaller",
+            "version": "1.27.460.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsAlarms",
+            "version": "11.2512.0.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.HEIFImageExtension_1.2.29.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.HEIFImageExtension_1.2.29.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.HEIFImageExtension",
+            "version": "1.2.29.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Microsoft3DViewer_7.2602.8012.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Microsoft3DViewer_7.2602.8012.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Microsoft3DViewer",
+            "version": "7.2602.8012.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsStore_22601.1401.3.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22601.1401.3.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsStore",
+            "version": "22601.1401.3.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AAD.BrokerPlugin_1000.18362.1533.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy",
+            "name": "Microsoft.AAD.BrokerPlugin",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CloudExperienceHost_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CloudExperienceHost",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.StartMenuExperienceHost_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.StartMenuExperienceHost",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ShellExperienceHost_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ShellExperienceHost",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Cortana_1.13.1.18362_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.Cortana_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.Cortana",
+            "version": "1.13.1.18362"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftEdge_44.18362.1533.0_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftEdge",
+            "version": "44.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ContentDeliveryManager_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ContentDeliveryManager",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Windows.CBSPreview_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Windows.CBSPreview_cw5n1h2txyewy",
+            "name": "Windows.CBSPreview",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGameCallableUI_1000.18362.1533.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.XboxGameCallableUI_cw5n1h2txyewy",
+            "name": "Microsoft.XboxGameCallableUI",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.XGpuEjectDialog_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.XGpuEjectDialog",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.SecureAssessmentBrowser_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.SecureAssessmentBrowser",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.SecHealthUI_10.0.18362.1533_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.SecHealthUI",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.PinningConfirmationDialog_1000.18362.1533.0_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.PinningConfirmationDialog",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.PeopleExperienceHost_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.PeopleExperienceHost",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ParentalControls_1000.18362.1533.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\ParentalControls_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ParentalControls",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.NarratorQuickStart_10.0.18362.1533_neutral_neutral_8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\microsoft.windows.narratorquickstart_8wekyb3d8bbwe",
+            "name": "Microsoft.Windows.NarratorQuickStart",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CapturePicker_10.0.18362.1533_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CapturePicker_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CapturePicker",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CallingShellApp_1000.18362.1533.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CallingShellApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CallingShellApp",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.AssignedAccessLockApp_1000.18362.1533.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AssignedAccessLockApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.AssignedAccessLockApp",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Apprep.ChxApp_1000.18362.1533.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.Apprep.ChxApp",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Win32WebViewHost_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Win32WebViewHost_cw5n1h2txyewy",
+            "name": "Microsoft.Win32WebViewHost",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.PPIProjection_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.PPIProjection_cw5n1h2txyewy",
+            "name": "Microsoft.PPIProjection",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftEdgeDevToolsClient_1000.18362.1533.0_neutral_neutral_8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftEdgeDevToolsClient",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.LockApp_10.0.18362.1533_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy",
+            "name": "Microsoft.LockApp",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ECApp_10.0.18362.1533_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.ECApp_8wekyb3d8bbwe",
+            "name": "Microsoft.ECApp",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.CredDialogHost_10.0.18362.1533_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\microsoft.creddialoghost_cw5n1h2txyewy",
+            "name": "Microsoft.CredDialogHost",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AsyncTextService_10.0.18362.1533_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AsyncTextService_8wekyb3d8bbwe",
+            "name": "Microsoft.AsyncTextService",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AccountsControl_10.0.18362.1533_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AccountsControl_cw5n1h2txyewy",
+            "name": "Microsoft.AccountsControl",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "InputApp_1000.18362.1533.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\InputApp_cw5n1h2txyewy",
+            "name": "InputApp",
+            "version": "1000.18362.1533.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy",
+            "name": "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy",
+            "name": "E2A4F912-2574-4A75-9BB0-0D023378592B",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.FileExplorer_cw5n1h2txyewy",
+            "name": "c5e2524a-ea46-4f67-841f-6a9465d9d515",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.18362.1533_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.FilePicker_cw5n1h2txyewy",
+            "name": "1527c705-839a-4832-9118-54d4Bd6a0c89",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.OOBENetworkCaptivePortal_10.0.18362.1533_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.OOBENetworkCaptivePortal",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.OOBENetworkConnectionFlow_10.0.18362.1533_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.OOBENetworkConnectionFlow",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.BioEnrollment_10.0.18362.1533_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.BioEnrollment_cw5n1h2txyewy",
+            "name": "Microsoft.BioEnrollment",
+            "version": "10.0.18362.1533"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsFeedbackHub_1.2602.13304.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_1.2602.13304.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsFeedbackHub",
+            "version": "1.2602.13304.0"
+          },
+          {
+            "publisher": "CN=F80C3B33-B9E8-4F23-AB15-B97C700EFF2F",
+            "packageFullName": "king.com.CandyCrushSaga_1.3220.1.0_x64__kgqvnymyfvs32",
+            "installLocation": "C:\\Program Files\\WindowsApps\\king.com.CandyCrushSaga_1.3220.1.0_x64__kgqvnymyfvs32",
+            "name": "king.com.CandyCrushSaga",
+            "version": "1.3220.1.0"
+          }
+        ],
+        "count": 80
+      },
+      "computer": {
+        "model": "Precision 3460",
+        "domain": "WORKGROUP",
+        "name": "DESKTOP-HAFH8C2",
+        "manufacturer": "Dell Inc.",
+        "totalMemoryGB": 15.7
+      },
+      "disks": [
+        {
+          "usagePercent": 4.6,
+          "label": "",
+          "fileSystem": "NTFS",
+          "drive": "C:",
+          "usedGB": 69.39,
+          "freeGB": 1428.62,
+          "totalGB": 1498.01
+        }
+      ],
+      "uptime": {
+        "hours": 1,
+        "days": 0,
+        "minutes": 50,
+        "lastBootTime": "2026-03-16T15:41:17Z",
+        "totalSeconds": 6603
+      },
+      "ram": {
+        "freeGB": 10.97,
+        "totalGB": 15.7,
+        "usagePercent": 30.1,
+        "usedGB": 4.73
+      },
+      "internet": {
+        "checkedAt": "2026-03-16T17:31:22Z",
+        "connected": true
+      },
+      "timestamp": "2026-03-16T17:31:22Z"
+    },
+    "createdAt": "2026-03-16T05:07:57.659Z"
+  },
+  {
+    "id": "bb94b914-6ee3-46bf-beec-c8a09f71c804",
+    "name": "CSE-ICB-051",
+    "alias": "",
+    "hostname": "DESKTOP-BKPKUE2",
+    "ipAddress": "",
+    "os": {
+      "buildNumber": "18363",
+      "architecture": "64-bit",
+      "name": "Microsoft Windows 10 Pro",
+      "version": "10.0.18363"
+    },
+    "status": "offline",
+    "lastSeen": "2026-03-16T12:01:20.960Z",
+    "metrics": {
+      "os": {
+        "buildNumber": "18363",
+        "architecture": "64-bit",
+        "name": "Microsoft Windows 10 Pro",
+        "version": "10.0.18363"
+      },
+      "cpu": {
+        "usagePercent": 5,
+        "logicalProcessors": 28,
+        "name": "Intel(R) Core(TM) i7-14700",
+        "cores": 20,
+        "maxClockSpeed": 2112
+      },
+      "success": true,
+      "network": {
+        "adapters": [
+          {
+            "subnet": "255.255.252.0",
+            "name": "Intel(R) Ethernet Connection (17) I219-LM",
+            "type": "Ethernet",
+            "gateway": "172.111.0.1",
+            "mac": "E8:CF:83:88:F1:70",
+            "ip": "172.111.2.185"
+          }
+        ],
+        "ssid": "",
+        "type": "Ethernet"
+      },
+      "applications": {
+        "list": [
+          {
+            "version": "25.10.186.0",
+            "name": "Cloudflare WARP",
+            "publisher": "Cloudflare, Inc.",
+            "installDate": "20260223",
+            "uninstallString": "MsiExec.exe /X{52FF2904-786A-4EB8-9246-D373FEF91BAC}",
+            "sizeMB": 338.43
+          },
+          {
+            "version": "26.2.961.1",
+            "name": "Google Play Games",
+            "publisher": "Google LLC",
+            "installDate": null,
+            "uninstallString": "\"C:\\Program Files\\Google\\Play Games\\Uninstaller.exe\" /o{47B07D71-505D-4665-AFD4-4972A30C6530}",
+            "sizeMB": 2954.82
+          },
+          {
+            "version": "145.0.3800.97",
+            "name": "Microsoft Edge WebView2 Runtime",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20260316",
+            "uninstallString": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\145.0.3800.97\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging",
+            "sizeMB": 0
+          },
+          {
+            "version": "3.26.0.0",
+            "name": "Microsoft Update Health Tools",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20250929",
+            "uninstallString": "MsiExec.exe /X{B5664346-4402-4834-81BE-9687BF653BA2}",
+            "sizeMB": 1.07
+          },
+          {
+            "version": "14.23.27820.0",
+            "name": "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": null,
+            "uninstallString": "\"C:\\ProgramData\\Package Cache\\{852adda4-4c78-4a38-b583-c0b360a329d6}\\VC_redist.x64.exe\"  /uninstall",
+            "sizeMB": 23.16
+          },
+          {
+            "version": "14.23.27820",
+            "name": "Microsoft Visual C++ 2019 X64 Additional Runtime - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{9CA7111B-263D-45DE-B898-61FAD30B3237}",
+            "sizeMB": 11.88
+          },
+          {
+            "version": "14.23.27820",
+            "name": "Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{A94EC1B2-932B-49D7-8AF2-4FBD29FF314B}",
+            "sizeMB": 2.2
+          },
+          {
+            "version": "7.2.2",
+            "name": "Oracle VirtualBox 7.2.2",
+            "publisher": "Oracle and/or its affiliates",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{AE2B8BC7-E1B7-40C5-82DA-DDA3E8B5F06A}",
+            "sizeMB": 232.12
+          },
+          {
+            "version": null,
+            "name": "Riot Vanguard",
+            "publisher": "Riot Games, Inc.",
+            "installDate": null,
+            "uninstallString": "\"C:\\Program Files\\Riot Vanguard\\installer.exe\"",
+            "sizeMB": 0
+          },
+          {
+            "version": "1.4.19041.2183",
+            "name": "Windows 10 Update Assistant",
+            "publisher": "Microsoft Corporation",
+            "installDate": null,
+            "uninstallString": "\"C:\\Program Files (x86)\\WindowsInstallationAssistant\\Windows10UpgraderApp.exe\" /ForceUninstall",
+            "sizeMB": 5
+          }
+        ],
+        "count": 10
+      },
+      "usb": {
+        "devices": [
+          {
+            "status": "OK",
+            "name": "USB Root Hub (USB 3.0)",
+            "deviceId": "USB\\ROOT_HUB30\\4&2114A89F&0&0"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_301A\\5&D0DE91E&0&8"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant mouse",
+            "deviceId": "HID\\VID_413C&PID_301A\\6&4347008&0&0000"
+          },
+          {
+            "status": "Error",
+            "name": "Generic Bluetooth Adapter",
+            "deviceId": "USB\\VID_8087&PID_0033\\5&D0DE91E&0&14"
+          },
+          {
+            "status": "OK",
+            "name": "USB Composite Device",
+            "deviceId": "USB\\VID_413C&PID_2113\\5&D0DE91E&0&7"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_2113&MI_00\\6&33823DDE&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "HID Keyboard Device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_00\\7&34E399C4&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_2113&MI_01\\6&33823DDE&0&0001"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant system controller",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL01\\7&300F946C&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant consumer control device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL02\\7&300F946C&0&0001"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant vendor-defined device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL03\\7&300F946C&0&0002"
+          }
+        ],
+        "count": 11
+      },
+      "storeApps": {
+        "list": [
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AccountsControl_10.0.18362.449_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AccountsControl_cw5n1h2txyewy",
+            "name": "Microsoft.AccountsControl",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CloudExperienceHost_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CloudExperienceHost",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AAD.BrokerPlugin_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy",
+            "name": "Microsoft.AAD.BrokerPlugin",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ShellExperienceHost_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ShellExperienceHost",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftEdge_44.18362.449.0_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftEdge",
+            "version": "44.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Cortana_1.13.0.18362_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.Cortana_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.Cortana",
+            "version": "1.13.0.18362"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "windows.immersivecontrolpanel_10.0.2.1000_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\ImmersiveControlPanel",
+            "name": "windows.immersivecontrolpanel",
+            "version": "10.0.2.1000"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ContentDeliveryManager_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ContentDeliveryManager",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.StartMenuExperienceHost_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.StartMenuExperienceHost",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\PrintDialog",
+            "name": "Windows.PrintDialog",
+            "version": "6.2.1.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGameCallableUI_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.XboxGameCallableUI_cw5n1h2txyewy",
+            "name": "Microsoft.XboxGameCallableUI",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.SecureAssessmentBrowser_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.SecureAssessmentBrowser",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.SecHealthUI_10.0.18362.449_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.SecHealthUI",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Windows.CBSPreview_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Windows.CBSPreview_cw5n1h2txyewy",
+            "name": "Windows.CBSPreview",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.XGpuEjectDialog_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.XGpuEjectDialog",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.PinningConfirmationDialog_1000.18362.449.0_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.PinningConfirmationDialog",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.PeopleExperienceHost_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.PeopleExperienceHost",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ParentalControls_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\ParentalControls_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ParentalControls",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.OOBENetworkConnectionFlow_10.0.18362.449_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.OOBENetworkConnectionFlow",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.OOBENetworkCaptivePortal_10.0.18362.449_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.OOBENetworkCaptivePortal",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.NarratorQuickStart_10.0.18362.449_neutral_neutral_8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\microsoft.windows.narratorquickstart_8wekyb3d8bbwe",
+            "name": "Microsoft.Windows.NarratorQuickStart",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.PPIProjection_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.PPIProjection_cw5n1h2txyewy",
+            "name": "Microsoft.PPIProjection",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Apprep.ChxApp_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.Apprep.ChxApp",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CallingShellApp_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CallingShellApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CallingShellApp",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CapturePicker_10.0.18362.449_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CapturePicker_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CapturePicker",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.FilePicker_cw5n1h2txyewy",
+            "name": "1527c705-839a-4832-9118-54d4Bd6a0c89",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Win32WebViewHost_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Win32WebViewHost_cw5n1h2txyewy",
+            "name": "Microsoft.Win32WebViewHost",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftEdgeDevToolsClient_1000.18362.449.0_neutral_neutral_8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftEdgeDevToolsClient",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.LockApp_10.0.18362.449_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy",
+            "name": "Microsoft.LockApp",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AsyncTextService_10.0.18362.449_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AsyncTextService_8wekyb3d8bbwe",
+            "name": "Microsoft.AsyncTextService",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.FileExplorer_cw5n1h2txyewy",
+            "name": "c5e2524a-ea46-4f67-841f-6a9465d9d515",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy",
+            "name": "E2A4F912-2574-4A75-9BB0-0D023378592B",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.18362.449_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy",
+            "name": "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "InputApp_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\InputApp_cw5n1h2txyewy",
+            "name": "InputApp",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.AssignedAccessLockApp_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AssignedAccessLockApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.AssignedAccessLockApp",
+            "version": "1000.18362.449.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ECApp_10.0.18362.449_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.ECApp_8wekyb3d8bbwe",
+            "name": "Microsoft.ECApp",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.CredDialogHost_10.0.18362.449_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\microsoft.creddialoghost_cw5n1h2txyewy",
+            "name": "Microsoft.CredDialogHost",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.BioEnrollment_10.0.18362.449_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.BioEnrollment_cw5n1h2txyewy",
+            "name": "Microsoft.BioEnrollment",
+            "version": "10.0.18362.449"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.YourPhone_0.0.13313.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_0.0.13313.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.YourPhone",
+            "version": "0.0.13313.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Wallet",
+            "version": "2.4.18324.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Office.OneNote_16001.11126.20076.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Office.OneNote_16001.11126.20076.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Office.OneNote",
+            "version": "16001.11126.20076.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MSPaint_5.1902.13017.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MSPaint_5.1902.13017.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MSPaint",
+            "version": "5.1902.13017.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftSolitaireCollection_4.2.11280.0_x86__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftSolitaireCollection_4.2.11280.0_x86__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftSolitaireCollection",
+            "version": "4.2.11280.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftOfficeHub_18.1901.1141.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_18.1901.1141.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftOfficeHub",
+            "version": "18.1901.1141.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Print3D_3.3.791.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Print3D_3.3.791.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Print3D",
+            "version": "3.3.791.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.People",
+            "version": "10.2202.100.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxApp",
+            "version": "48.104.4001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MixedReality.Portal",
+            "version": "2000.21051.1282.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxSpeechToTextOverlay_1.21.13002.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxSpeechToTextOverlay_1.21.13002.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxSpeechToTextOverlay",
+            "version": "1.21.13002.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Xbox.TCUI",
+            "version": "1.24.10001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxGameOverlay",
+            "version": "1.54.4001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Messaging_4.1901.10241.1000_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Messaging_4.1901.10241.1000_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Messaging",
+            "version": "4.1901.10241.1000"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftStickyNotes",
+            "version": "6.1.4.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsCalculator",
+            "version": "10.2103.8.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Getstarted_10.4.41811.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Getstarted_10.4.41811.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Getstarted",
+            "version": "10.4.41811.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe",
+            "name": "microsoft.windowscommunicationsapps",
+            "version": "16005.14326.22342.0"
+          },
+          {
+            "publisher": "CN=Skype Software Sarl, O=Microsoft Corporation, L=Luxembourg, S=Luxembourg, C=LU",
+            "packageFullName": "Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c",
+            "name": "Microsoft.SkypeApp",
+            "version": "15.150.3125.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsSoundRecorder_10.2103.28.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsSoundRecorder_10.2103.28.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsSoundRecorder",
+            "version": "10.2103.28.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsCamera_2021.105.10.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2021.105.10.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsCamera",
+            "version": "2021.105.10.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsMaps_11.2506.3.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsMaps_11.2506.3.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsMaps",
+            "version": "11.2506.3.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ScreenSketch_10.2008.3001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_10.2008.3001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ScreenSketch",
+            "version": "10.2008.3001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.OneConnect_5.2508.25002.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.OneConnect_5.2508.25002.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.OneConnect",
+            "version": "5.2508.25002.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ZuneMusic_10.22031.10091.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_10.22031.10091.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ZuneMusic",
+            "version": "10.22031.10091.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Photos_2023.10070.17002.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2023.10070.17002.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Windows.Photos",
+            "version": "2023.10070.17002.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ZuneVideo",
+            "version": "10.22091.10061.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGamingOverlay_5.621.4222.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_5.621.4222.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxGamingOverlay",
+            "version": "5.621.4222.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxIdentityProvider",
+            "version": "12.130.16001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.BingWeather_4.54.63029.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.BingWeather_4.54.63029.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.BingWeather",
+            "version": "4.54.63029.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.VP9VideoExtensions_1.2.12.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.VP9VideoExtensions_1.2.12.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.VP9VideoExtensions",
+            "version": "1.2.12.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WebpImageExtension_1.2.14.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WebpImageExtension_1.2.14.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WebpImageExtension",
+            "version": "1.2.14.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WebMediaExtensions_1.2.17.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WebMediaExtensions_1.2.17.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WebMediaExtensions",
+            "version": "1.2.17.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.GetHelp_10.2409.33293.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.33293.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.GetHelp",
+            "version": "10.2409.33293.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "MicrosoftCorporationII.WinAppRuntime.Main.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe",
+            "name": "MicrosoftCorporationII.WinAppRuntime.Main.1.5",
+            "version": "5001.373.1736.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x6_5001.373.1736.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x6_5001.373.1736.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x6",
+            "version": "5001.373.1736.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x8_5001.373.1736.0_x86__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x8_5001.373.1736.0_x86__8wekyb3d8bbwe",
+            "name": "Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x8",
+            "version": "5001.373.1736.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.StorePurchaseApp_22512.1401.1.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22512.1401.1.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.StorePurchaseApp",
+            "version": "22512.1401.1.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsAlarms",
+            "version": "11.2512.0.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.DesktopAppInstaller_1.27.460.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.27.460.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.DesktopAppInstaller",
+            "version": "1.27.460.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.HEIFImageExtension_1.2.29.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.HEIFImageExtension_1.2.29.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.HEIFImageExtension",
+            "version": "1.2.29.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Microsoft3DViewer_7.2602.8012.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Microsoft3DViewer_7.2602.8012.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Microsoft3DViewer",
+            "version": "7.2602.8012.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "MicrosoftCorporationII.WinAppRuntime.Singleton_8000.770.947.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Singleton_8000.770.947.0_x64__8wekyb3d8bbwe",
+            "name": "MicrosoftCorporationII.WinAppRuntime.Singleton",
+            "version": "8000.770.947.0"
+          },
+          {
+            "publisher": "CN=082E9164-EE6C-4EC8-B62C-441FAE7BEFA1",
+            "packageFullName": "Mozilla.Firefox_147.0.4.0_x64__n80bbvh6b1yt2",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Mozilla.Firefox_147.0.4.0_x64__n80bbvh6b1yt2",
+            "name": "Mozilla.Firefox",
+            "version": "147.0.4.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsFeedbackHub_1.2602.13304.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_1.2602.13304.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsFeedbackHub",
+            "version": "1.2602.13304.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsStore_22601.1401.3.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22601.1401.3.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsStore",
+            "version": "22601.1401.3.0"
+          }
+        ],
+        "count": 84
+      },
+      "computer": {
+        "model": "Precision 3460",
+        "domain": "WORKGROUP",
+        "name": "DESKTOP-BKPKUE2",
+        "manufacturer": "Dell Inc.",
+        "totalMemoryGB": 15.7
+      },
+      "disks": [
+        {
+          "usagePercent": 6.5,
+          "label": "",
+          "fileSystem": "NTFS",
+          "drive": "C:",
+          "usedGB": 96.89,
+          "freeGB": 1402.78,
+          "totalGB": 1499.67
+        }
+      ],
+      "uptime": {
+        "hours": 5,
+        "days": 0,
+        "minutes": 47,
+        "lastBootTime": "2026-03-16T10:32:07Z",
+        "totalSeconds": 20820
+      },
+      "ram": {
+        "freeGB": 11.44,
+        "totalGB": 15.7,
+        "usagePercent": 27.1,
+        "usedGB": 4.26
+      },
+      "internet": {
+        "checkedAt": "2026-03-16T16:19:12Z",
+        "connected": false
+      },
+      "timestamp": "2026-03-16T16:19:13Z"
+    },
+    "createdAt": "2026-03-16T05:08:56.358Z"
+  },
+  {
+    "id": "b25c5871-367f-438a-a83b-87524d19c52c",
+    "name": "CSE-ICB-052",
+    "alias": "",
+    "hostname": "DESKTOP-RFB6KCN",
+    "ipAddress": "",
+    "os": {
+      "buildNumber": "19045",
+      "architecture": "64-bit",
+      "name": "Microsoft Windows 10 Pro",
+      "version": "10.0.19045"
+    },
+    "status": "offline",
+    "lastSeen": "2026-03-16T12:01:21.210Z",
+    "metrics": {
+      "os": {
+        "buildNumber": "19045",
+        "architecture": "64-bit",
+        "name": "Microsoft Windows 10 Pro",
+        "version": "10.0.19045"
+      },
+      "cpu": {
+        "usagePercent": 10,
+        "logicalProcessors": 28,
+        "name": "Intel(R) Core(TM) i7-14700",
+        "cores": 20,
+        "maxClockSpeed": 2100
+      },
+      "success": true,
+      "network": {
+        "adapters": [
+          {
+            "subnet": "255.255.252.0",
+            "name": "Intel(R) Ethernet Connection (17) I219-LM",
+            "type": "Ethernet",
+            "gateway": "172.111.0.1",
+            "mac": "E8:CF:83:88:F8:4D",
+            "ip": "172.111.2.142"
+          }
+        ],
+        "ssid": "",
+        "type": "Ethernet"
+      },
+      "applications": {
+        "list": [
+          {
+            "version": "26.1.150.0",
+            "name": "Cloudflare WARP",
+            "publisher": "Cloudflare, Inc.",
+            "installDate": "20260224",
+            "uninstallString": "MsiExec.exe /X{561B3527-052F-495C-898B-DFE0E9AB8144}",
+            "sizeMB": 342.81
+          },
+          {
+            "version": "145.0.7632.160",
+            "name": "Google Chrome",
+            "publisher": "Google LLC",
+            "installDate": "20260312",
+            "uninstallString": "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.160\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
+            "sizeMB": 0
+          },
+          {
+            "version": "11.22.7.466",
+            "name": "Kaspersky Endpoint Security for Windows",
+            "publisher": null,
+            "installDate": null,
+            "uninstallString": null,
+            "sizeMB": 0
+          },
+          {
+            "version": "16.0.0.254",
+            "name": "Kaspersky Security Center Network Agent",
+            "publisher": "Kaspersky",
+            "installDate": "20251125",
+            "uninstallString": "MsiExec.exe /X{BCF4CF24-88AB-45E1-A6E6-40C8278A70C5}",
+            "sizeMB": 121.79
+          },
+          {
+            "version": "12.10.0.466",
+            "name": "Kaspersky�Endpoint�Security for Windows",
+            "publisher": "AO Kaspersky Lab",
+            "installDate": "20251125",
+            "uninstallString": "msiexec.exe /x {C5AD64AF-FF56-4733-A957-0CAF8D61C143}",
+            "sizeMB": 349.22
+          },
+          {
+            "version": "146.0.3856.59",
+            "name": "Microsoft Edge",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20260316",
+            "uninstallString": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\146.0.3856.59\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging",
+            "sizeMB": 0
+          },
+          {
+            "version": "145.0.3800.97",
+            "name": "Microsoft Edge WebView2 Runtime",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20260313",
+            "uninstallString": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\145.0.3800.97\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging",
+            "sizeMB": 0
+          },
+          {
+            "version": "3.74.0.0",
+            "name": "Microsoft Update Health Tools",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20260225",
+            "uninstallString": "MsiExec.exe /X{1FC1A6C2-576E-489A-9B4A-92D21F542136}",
+            "sizeMB": 1.03
+          },
+          {
+            "version": "14.23.27820.0",
+            "name": "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": null,
+            "uninstallString": "\"C:\\ProgramData\\Package Cache\\{852adda4-4c78-4a38-b583-c0b360a329d6}\\VC_redist.x64.exe\"  /uninstall",
+            "sizeMB": 23.16
+          },
+          {
+            "version": "14.23.27820",
+            "name": "Microsoft Visual C++ 2019 X64 Additional Runtime - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{9CA7111B-263D-45DE-B898-61FAD30B3237}",
+            "sizeMB": 11.88
+          },
+          {
+            "version": "14.23.27820",
+            "name": "Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.23.27820",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{A94EC1B2-932B-49D7-8AF2-4FBD29FF314B}",
+            "sizeMB": 2.2
+          },
+          {
+            "version": "7.2.2",
+            "name": "Oracle VirtualBox 7.2.2",
+            "publisher": "Oracle and/or its affiliates",
+            "installDate": "20250924",
+            "uninstallString": "MsiExec.exe /I{AE2B8BC7-E1B7-40C5-82DA-DDA3E8B5F06A}",
+            "sizeMB": 232.12
+          },
+          {
+            "version": null,
+            "name": "Riot Vanguard",
+            "publisher": "Riot Games, Inc.",
+            "installDate": null,
+            "uninstallString": "\"C:\\Program Files\\Riot Vanguard\\installer.exe\"",
+            "sizeMB": 0
+          },
+          {
+            "version": "8.94.0.0",
+            "name": "Update for x64-based Windows Systems (KB5001716)",
+            "publisher": "Microsoft Corporation",
+            "installDate": "20260304",
+            "uninstallString": "MsiExec.exe /X{B8D93870-98D1-4980-AFCA-E26563CDFB79}",
+            "sizeMB": 0.84
+          },
+          {
+            "version": "1.4.19041.2183",
+            "name": "Windows 10 Update Assistant",
+            "publisher": "Microsoft Corporation",
+            "installDate": null,
+            "uninstallString": "\"C:\\Program Files (x86)\\WindowsInstallationAssistant\\Windows10UpgraderApp.exe\" /ForceUninstall",
+            "sizeMB": 5
+          }
+        ],
+        "count": 18
+      },
+      "usb": {
+        "devices": [
+          {
+            "status": "OK",
+            "name": "USB Root Hub (USB 3.0)",
+            "deviceId": "USB\\ROOT_HUB30\\4&2114A89F&0&0"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_301A\\5&D0DE91E&0&7"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant mouse",
+            "deviceId": "HID\\VID_413C&PID_301A\\6&16EE20AD&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "USB Composite Device",
+            "deviceId": "USB\\VID_413C&PID_2113\\5&D0DE91E&0&8"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_2113&MI_00\\6&20C88D39&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "HID Keyboard Device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_00\\7&755B320&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "USB Input Device",
+            "deviceId": "USB\\VID_413C&PID_2113&MI_01\\6&20C88D39&0&0001"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant system controller",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL01\\7&1C818AA2&0&0000"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant consumer control device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL02\\7&1C818AA2&0&0001"
+          },
+          {
+            "status": "OK",
+            "name": "HID-compliant vendor-defined device",
+            "deviceId": "HID\\VID_413C&PID_2113&MI_01&COL03\\7&1C818AA2&0&0002"
+          },
+          {
+            "status": "OK",
+            "name": "Intel(R) Wireless Bluetooth(R)",
+            "deviceId": "USB\\VID_8087&PID_0033\\5&D0DE91E&0&14"
+          },
+          {
+            "status": "OK",
+            "name": "Intel Tile Device",
+            "deviceId": "{2F2B7B01-597A-434C-8DD6-D27CD46EF73C}\\INTELTILEDEVICE\\6&256C3BC2&0"
+          },
+          {
+            "status": "OK",
+            "name": "Bluetooth Device (RFCOMM Protocol TDI)",
+            "deviceId": "BTH\\MS_RFCOMM\\6&256C3BC2&0&0"
+          },
+          {
+            "status": "OK",
+            "name": "Microsoft Bluetooth Enumerator",
+            "deviceId": "BTH\\MS_BTHBRB\\6&256C3BC2&0&1"
+          },
+          {
+            "status": "OK",
+            "name": "Bluetooth Device (Personal Area Network)",
+            "deviceId": "BTH\\MS_BTHPAN\\6&256C3BC2&0&2"
+          },
+          {
+            "status": "OK",
+            "name": "Microsoft Bluetooth LE Enumerator",
+            "deviceId": "BTH\\MS_BTHLE\\6&256C3BC2&0&3"
+          }
+        ],
+        "count": 16
+      },
+      "storeApps": {
+        "list": [
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "windows.immersivecontrolpanel_10.0.2.1000_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\ImmersiveControlPanel",
+            "name": "windows.immersivecontrolpanel",
+            "version": "10.0.2.1000"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Wallet",
+            "version": "2.4.18324.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxGameOverlay",
+            "version": "1.54.4001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Print3D_3.3.791.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Print3D_3.3.791.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Print3D",
+            "version": "3.3.791.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.People",
+            "version": "10.2202.100.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MixedReality.Portal",
+            "version": "2000.21051.1282.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxApp",
+            "version": "48.104.4001.0"
+          },
+          {
+            "publisher": "CN=Skype Software Sarl, O=Microsoft Corporation, L=Luxembourg, S=Luxembourg, C=LU",
+            "packageFullName": "Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c",
+            "name": "Microsoft.SkypeApp",
+            "version": "15.150.3125.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Xbox.TCUI",
+            "version": "1.24.10001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxSpeechToTextOverlay_1.21.13002.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxSpeechToTextOverlay_1.21.13002.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxSpeechToTextOverlay",
+            "version": "1.21.13002.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftStickyNotes",
+            "version": "6.1.4.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsSoundRecorder_10.2103.28.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsSoundRecorder_10.2103.28.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsSoundRecorder",
+            "version": "10.2103.28.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.OneConnect_5.2508.25002.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.OneConnect_5.2508.25002.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.OneConnect",
+            "version": "5.2508.25002.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.BingWeather_4.54.63029.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.BingWeather_4.54.63029.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.BingWeather",
+            "version": "4.54.63029.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsMaps_11.2506.3.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsMaps_11.2506.3.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsMaps",
+            "version": "11.2506.3.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ScreenSketch_10.2008.3001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_10.2008.3001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ScreenSketch",
+            "version": "10.2008.3001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "MicrosoftCorporationII.WinAppRuntime.Main.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe",
+            "name": "MicrosoftCorporationII.WinAppRuntime.Main.1.5",
+            "version": "5001.373.1736.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x6_5001.373.1736.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x6_5001.373.1736.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x6",
+            "version": "5001.373.1736.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x8_5001.373.1736.0_x86__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x8_5001.373.1736.0_x86__8wekyb3d8bbwe",
+            "name": "Microsoft.WinAppRuntime.DDLM.5001.373.1736.0-x8",
+            "version": "5001.373.1736.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WebpImageExtension_1.2.14.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WebpImageExtension_1.2.14.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WebpImageExtension",
+            "version": "1.2.14.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.VP9VideoExtensions_1.2.12.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.VP9VideoExtensions_1.2.12.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.VP9VideoExtensions",
+            "version": "1.2.12.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WebMediaExtensions_1.2.17.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WebMediaExtensions_1.2.17.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WebMediaExtensions",
+            "version": "1.2.17.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.GetHelp_10.2409.33293.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.33293.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.GetHelp",
+            "version": "10.2409.33293.0"
+          },
+          {
+            "publisher": "CN=828910CE-E880-4C65-B4CC-77115723C2D3",
+            "packageFullName": "ZhuhaiKingsoftOfficeSoftw.WPSOffice2019_12.2.23197.0_x86__924xes6e8q1tw",
+            "installLocation": "C:\\Program Files\\WindowsApps\\ZhuhaiKingsoftOfficeSoftw.WPSOffice2019_12.2.23197.0_x86__924xes6e8q1tw",
+            "name": "ZhuhaiKingsoftOfficeSoftw.WPSOffice2019",
+            "version": "12.2.23197.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsAlarms",
+            "version": "11.2512.0.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.HEIFImageExtension_1.2.29.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.HEIFImageExtension_1.2.29.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.HEIFImageExtension",
+            "version": "1.2.29.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Microsoft3DViewer_7.2602.8012.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Microsoft3DViewer_7.2602.8012.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Microsoft3DViewer",
+            "version": "7.2602.8012.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe",
+            "name": "microsoft.windowscommunicationsapps",
+            "version": "16005.14326.22342.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.StorePurchaseApp_22512.1401.1.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22512.1401.1.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.StorePurchaseApp",
+            "version": "22512.1401.1.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxIdentityProvider",
+            "version": "12.130.16001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\PrintDialog",
+            "name": "Windows.PrintDialog",
+            "version": "6.2.1.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MSPaint_6.1907.29027.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MSPaint_6.1907.29027.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MSPaint",
+            "version": "6.1907.29027.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftEdge.Stable_145.0.3800.70_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_145.0.3800.70_neutral__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftEdge.Stable",
+            "version": "145.0.3800.70"
+          },
+          {
+            "publisher": "CN=EB51A5DA-0E72-4863-82E4-EA21C1F8DFE3",
+            "packageFullName": "AppUp.IntelArcSoftware_25.52.2110.0_x64__8j3eq9eme6ctt",
+            "installLocation": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_25.52.2110.0_x64__8j3eq9eme6ctt",
+            "name": "AppUp.IntelArcSoftware",
+            "version": "25.52.2110.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.549981C3F5F10_4.2308.1005.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.549981C3F5F10_4.2308.1005.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.549981C3F5F10",
+            "version": "4.2308.1005.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Getstarted",
+            "version": "10.2312.1.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Messaging_4.1901.60404.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Messaging_4.1901.60404.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Messaging",
+            "version": "4.1901.60404.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftSolitaireCollection_4.25.1130.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftSolitaireCollection_4.25.1130.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftSolitaireCollection",
+            "version": "4.25.1130.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ZuneVideo_10.25121.10051.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.25121.10051.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ZuneVideo",
+            "version": "10.25121.10051.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Office.OneNote_16001.14326.22594.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Office.OneNote_16001.14326.22594.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Office.OneNote",
+            "version": "16001.14326.22594.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsCamera_2025.2510.2.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2025.2510.2.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsCamera",
+            "version": "2025.2510.2.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsCalculator_11.2508.4.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_11.2508.4.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsCalculator",
+            "version": "11.2508.4.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.YourPhone_1.25072.79.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25072.79.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.YourPhone",
+            "version": "1.25072.79.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "MicrosoftCorporationII.WinAppRuntime.Singleton_8000.770.947.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Singleton_8000.770.947.0_x64__8wekyb3d8bbwe",
+            "name": "MicrosoftCorporationII.WinAppRuntime.Singleton",
+            "version": "8000.770.947.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsFeedbackHub_1.2602.13304.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_1.2602.13304.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsFeedbackHub",
+            "version": "1.2602.13304.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.DesktopAppInstaller_1.28.190.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.28.190.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.DesktopAppInstaller",
+            "version": "1.28.190.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CloudExperienceHost_10.0.19041.6396_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CloudExperienceHost",
+            "version": "10.0.19041.6396"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.BioEnrollment_10.0.19041.4239_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.BioEnrollment_cw5n1h2txyewy",
+            "name": "Microsoft.BioEnrollment",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AAD.BrokerPlugin_1000.19041.4239.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy",
+            "name": "Microsoft.AAD.BrokerPlugin",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.OOBENetworkConnectionFlow_10.0.19041.4239_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.OOBENetworkConnectionFlow",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.OOBENetworkCaptivePortal_10.0.19041.4239_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.OOBENetworkCaptivePortal",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "MicrosoftWindows.UndockedDevKit_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy",
+            "name": "MicrosoftWindows.UndockedDevKit",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.StartMenuExperienceHost_10.0.19041.5438_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.StartMenuExperienceHost",
+            "version": "10.0.19041.5438"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ShellExperienceHost_10.0.19041.5072_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ShellExperienceHost",
+            "version": "10.0.19041.5072"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Search_1.14.18.19041_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.Search",
+            "version": "1.14.18.19041"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ContentDeliveryManager_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ContentDeliveryManager",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "MicrosoftWindows.Client.CBS_1000.19062.1000.0_x64__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+            "name": "MicrosoftWindows.Client.CBS",
+            "version": "1000.19062.1000.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Windows.CBSPreview_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Windows.CBSPreview_cw5n1h2txyewy",
+            "name": "Windows.CBSPreview",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "NcsiUwpApp_1000.19041.4239.0_neutral_neutral_8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\NcsiUwpApp_8wekyb3d8bbwe",
+            "name": "NcsiUwpApp",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGameCallableUI_1000.19041.4239.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.XboxGameCallableUI_cw5n1h2txyewy",
+            "name": "Microsoft.XboxGameCallableUI",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.XGpuEjectDialog_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.XGpuEjectDialog",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.SecureAssessmentBrowser_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.SecureAssessmentBrowser",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.SecHealthUI_10.0.19041.4239_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.SecHealthUI",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.PinningConfirmationDialog_1000.19041.4239.0_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.PinningConfirmationDialog",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.PeopleExperienceHost_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.PeopleExperienceHost",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.ParentalControls_1000.19041.4239.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\ParentalControls_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.ParentalControls",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.NarratorQuickStart_10.0.19041.4239_neutral_neutral_8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\microsoft.windows.narratorquickstart_8wekyb3d8bbwe",
+            "name": "Microsoft.Windows.NarratorQuickStart",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CapturePicker_10.0.19041.4239_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CapturePicker_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CapturePicker",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.CallingShellApp_1000.19041.4239.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.CallingShellApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.CallingShellApp",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.AssignedAccessLockApp_1000.19041.4239.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AssignedAccessLockApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.AssignedAccessLockApp",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Apprep.ChxApp_1000.19041.4239.0_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy",
+            "name": "Microsoft.Windows.Apprep.ChxApp",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Win32WebViewHost_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Win32WebViewHost_cw5n1h2txyewy",
+            "name": "Microsoft.Win32WebViewHost",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftEdgeDevToolsClient_1000.19041.4239.0_neutral_neutral_8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftEdgeDevToolsClient",
+            "version": "1000.19041.4239.0"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.LockApp_10.0.19041.4239_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy",
+            "name": "Microsoft.LockApp",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ECApp_10.0.19041.4597_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.ECApp_8wekyb3d8bbwe",
+            "name": "Microsoft.ECApp",
+            "version": "10.0.19041.4597"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.CredDialogHost_10.0.19041.4239_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\microsoft.creddialoghost_cw5n1h2txyewy",
+            "name": "Microsoft.CredDialogHost",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AsyncTextService_10.0.19041.4239_neutral__8wekyb3d8bbwe",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AsyncTextService_8wekyb3d8bbwe",
+            "name": "Microsoft.AsyncTextService",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.AccountsControl_10.0.19041.4239_neutral__cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.AccountsControl_cw5n1h2txyewy",
+            "name": "Microsoft.AccountsControl",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy",
+            "name": "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy",
+            "name": "E2A4F912-2574-4A75-9BB0-0D023378592B",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.FileExplorer_cw5n1h2txyewy",
+            "name": "c5e2524a-ea46-4f67-841f-6a9465d9d515",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.19041.4239_neutral_neutral_cw5n1h2txyewy",
+            "installLocation": "C:\\Windows\\SystemApps\\Microsoft.Windows.FilePicker_cw5n1h2txyewy",
+            "name": "1527c705-839a-4832-9118-54d4Bd6a0c89",
+            "version": "10.0.19041.4239"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.DevHome_0.2100.858.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.DevHome_0.2100.858.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Windows.DevHome",
+            "version": "0.2100.858.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.XboxGamingOverlay_7.326.2102.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_7.326.2102.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.XboxGamingOverlay",
+            "version": "7.326.2102.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.BingSearch_1.1.40.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.BingSearch_1.1.40.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.BingSearch",
+            "version": "1.1.40.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Copilot_1.25121.84.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Copilot_1.25121.84.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Copilot",
+            "version": "1.25121.84.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.MicrosoftOfficeHub_19.2603.38021.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2603.38021.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.MicrosoftOfficeHub",
+            "version": "19.2603.38021.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.ZuneMusic_11.2601.11.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2601.11.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.ZuneMusic",
+            "version": "11.2601.11.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.OutlookForWindows_1.2026.225.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.OutlookForWindows_1.2026.225.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.OutlookForWindows",
+            "version": "1.2026.225.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.Windows.Photos_2026.11020.20001.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2026.11020.20001.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.Windows.Photos",
+            "version": "2026.11020.20001.0"
+          },
+          {
+            "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "packageFullName": "Microsoft.WindowsStore_22601.1401.6.0_x64__8wekyb3d8bbwe",
+            "installLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22601.1401.6.0_x64__8wekyb3d8bbwe",
+            "name": "Microsoft.WindowsStore",
+            "version": "22601.1401.6.0"
+          }
+        ],
+        "count": 91
+      },
+      "computer": {
+        "model": "Precision 3460",
+        "domain": "WORKGROUP",
+        "name": "DESKTOP-RFB6KCN",
+        "manufacturer": "Dell Inc.",
+        "totalMemoryGB": 15.7
+      },
+      "disks": [
+        {
+          "usagePercent": 7.2,
+          "label": "",
+          "fileSystem": "NTFS",
+          "drive": "C:",
+          "usedGB": 107.71,
+          "freeGB": 1385.25,
+          "totalGB": 1492.96
+        }
+      ],
+      "uptime": {
+        "hours": 6,
+        "days": 0,
+        "minutes": 13,
+        "lastBootTime": "2026-03-16T10:31:26Z",
+        "totalSeconds": 22411
+      },
+      "ram": {
+        "freeGB": 8.5,
+        "totalGB": 15.7,
+        "usagePercent": 45.9,
+        "usedGB": 7.2
+      },
+      "internet": {
+        "checkedAt": "2026-03-16T16:44:59Z",
+        "connected": true
+      },
+      "timestamp": "2026-03-16T16:44:59Z"
+    },
+    "createdAt": "2026-03-16T05:09:25.234Z"
+  }
+]
